@@ -72,19 +72,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'crm.wsgi.application'
 
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'demo_1',
-#         'USER': 'abhay',
-#         'PASSWORD': '123abhay',
-#         'HOST': 'database-2.cpjgrox6vzsi.ap-south-1.rds.amazonaws.com',
-#         'PORT': '5432',
-#     }
 # }
 
 DATABASES = {
@@ -145,23 +132,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 
 #SMTP Configuration
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'abhaytiwari8109@gmail.com'
-EMAIL_HOST_PASSWORD = '123@abhayt'
-EMAIL_USE_TLS = True
 
 
-
-#S3 BUCKETS CONFIG
-# AWS_ACCESS_KEY_ID = 'AKIAZYZRYB6AP2WVPWIK'
-# AWS_SECRET_ACCESS_KEY = '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'
-# AWS_STORAGE_BUCKET_NAME = 'abhay-crm-bucket'
-# AWS_S3_FILE_OVERWRITE = False
-# AWS_S3_REGION_NAME = 'ap-south-1'
-# AWS_DEFAULT_ACL = None
-# DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-# STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 
